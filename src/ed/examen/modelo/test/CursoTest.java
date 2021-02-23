@@ -43,4 +43,16 @@ class CursoTest {
 		
 	}
 	
+	@Test
+	void testEstaRegistrado() {
+		
+		//test valido
+		boolean b = true;
+		
+		c.aniadirAlumno(p);
+		
+		assertEquals(b, c.estaRegistrado("12345678W"));
+		
+	}
+	
 }
