@@ -77,4 +77,12 @@ Persona p = new Persona("12345678W", "Adrián", "Mosquera");
 		
 	}
 	
+	@Test
+	void testSetApellido1() {
+		
+		p.setApellido1("perez");
+		assertEquals("perez", p.getApellido1());
+		
+	}
+	
 }
