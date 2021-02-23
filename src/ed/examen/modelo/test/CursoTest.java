@@ -63,4 +63,18 @@ class CursoTest {
 		
 	}
 	
+	@Test
+	void testNumeroAlumnos() {
+		
+		//test valido
+		int anAlum = c.numeroAlumnos();
+				
+		c.aniadirAlumno(p);
+				
+		int dnAlumn = c.numeroAlumnos();
+				
+		assertEquals(dnAlumn, c.numeroAlumnos());
+		
+	}
+	
 }
