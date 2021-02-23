@@ -55,4 +55,12 @@ class CursoTest {
 		
 	}
 	
+	@Test
+	void testCurso() {
+		
+		Curso c1 = new Curso();
+		assertNotNull(c1);
+		
+	}
+	
 }
