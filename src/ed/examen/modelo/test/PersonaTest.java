@@ -19,4 +19,12 @@ Persona p = new Persona("12345678W", "Adrián", "Mosquera");
 		
 	}
 
+	@Test
+	void testGetDni() {
+		
+		//test valido
+		assertEquals("12345678W", p.getDni());
+		
+	}
+	
 }
