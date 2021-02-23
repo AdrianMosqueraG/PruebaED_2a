@@ -94,7 +94,7 @@ public class Persona{
 	 * */
 	/**
 	 * Te permite modificar el apellido de una instancia de la clase
-	 * @param apellido (de la persona a la que se lo quieres cambiar)
+	 * @param apellido1 (de la persona a la que se lo quieres cambiar)
 	 */
 	public void setApellido1(String apellido1) {
 		this.apellido1 = apellido1;
