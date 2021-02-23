@@ -53,4 +53,12 @@ Persona p = new Persona("12345678W", "Adrián", "Mosquera");
 		
 	}
 	
+	@Test
+	void testGetNombre() {
+		
+		//test valido
+		assertEquals("Adrián", p.getNombre());
+		
+	}
+	
 }
